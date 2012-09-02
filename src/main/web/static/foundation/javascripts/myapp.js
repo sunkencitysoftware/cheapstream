@@ -112,7 +112,9 @@ var amazonCallback = function(result) {
 }
 
 var handleSearch = function(searchTerm) {
-    $("#movieList").children().remove();
+    //First reset the list.
+    $("#movieList").children().remove(); 
+    //Then kick off all the queries
     searchNetflix(searchTerm);
     searchITunes(searchTerm);
 }

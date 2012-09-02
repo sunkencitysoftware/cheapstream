@@ -16,16 +16,8 @@ header { -webkit-box-shadow:0 0 10px 3px rgba(0, 0, 0, 0.5);-o-box-shadow:0 0 10
 header nav ul { margin: 0 0 0 -20px; padding: 0; float: right; overflow: hidden; }
 header nav ul li { margin: 0 0 0 20px; padding: 22px 0;; display: block; float: left; }
 
-
-/* -----------------------------------------
-   Page Name 1
------------------------------------------ */
-
-
-
-
-/* -----------------------------------------
-   Page Name 2
------------------------------------------ */
+.thumbnail {
+    height: 150px;
+}
 
 
