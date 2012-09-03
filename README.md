@@ -8,12 +8,12 @@ I found that iTunes had a search API that was openly available.  So I started th
 So I kept working and I was searching for an answer to another problem and I ran across http://canistream.it and boom!  It was exactally what I was looking for the other night!  So that puts a damper on my development here.  So while it was fun to make what I had, I don't really need to continue working on it, so I thought I'll just put it on github for others to look at and play with.  
 
 Known issues:
- - It only really works with non-ambigious movie titles.  It restricts the "type" in both searchs to movies, but when you search for something like "Annie" you get different results from iTunes and Netflix.  If you search for something like The Hunger Games, it works just fine. 
- - I discovered that the iTunes API doesn't tell you how much rentals cost or if it is available in HD.  The Netflix API was much better in this respect. 
- - Tumbnails were inconsisent from each service.  And the biggest iTunes tumbnail was 100px on the longest side. 
+* It only really works with non-ambigious movie titles.  It restricts the "type" in both searchs to movies, but when you search for something like "Annie" you get different results from iTunes and Netflix.  If you search for something like The Hunger Games, it works just fine. 
+* I discovered that the iTunes API doesn't tell you how much rentals cost or if it is available in HD.  The Netflix API was much better in this respect. 
+* Tumbnails were inconsisent from each service.  And the biggest iTunes tumbnail was 100px on the longest side. 
 
- Obviously there was much more to do like:
-  - Add other services like Amazon, Xfinity, Hulu, etc
-  - I wanted to make it work just as well on a TV as it does on your desktop.  
+Obviously there was much more to do like:
+* Add other services like Amazon, Xfinity, Hulu, etc
+* I wanted to make it work just as well on a TV as it does on your desktop.  
 
 So I turn this over to the world at this point.  I also took the time to learn something else new and awesome: github:Pages!  So you can go to http://sunkencitysoftware.github.com/cheapstream/ and try out CheapStream for yourself!  Enjoy!
